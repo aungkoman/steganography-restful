@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Text Shadow</title>
+    </head>
+    
+    <body>
+    
+        <h1>Hacked By
+       
+    </h1><h2>
+Nay Naing Oo</h2>
+<img src="http://localhost:8080/hacker.jpg">
+        
+
+       
+    </body>
+    <style>
+        
+        body {
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+ h1{
+    z-index: 1;
+    text-shadow: 4px 4px 10px #000000,
+                 5px 5px 75px #7722cc,
+                 -5px -5px 75px #7722cc;
+    animation: text-shadow 2s alternate infinite;
+}
+
+h1{
+    font-size: 80px;
+    color: black;
+    z-index: 2;
+}
+h2{
+    
+    font-size:80px;
+    color:black;
+    z-index:2;
+}
+
+h2{
+    z-index: 1;
+    text-shadow: 4px 4px 10px #000000,
+                 5px 5px 75px #7722cc,
+                 -5px -5px 75px #7722cc;
+    animation: text-shadow 4s alternate infinite;
+
+}
+
+
+
+@keyframes text-shadow {
+    from {
+        text-shadow: 1px 1px 1px #000000,
+                     1px 1px 1px #000000,
+                     1px 1px 1px #000000;
+    }
+    to {
+        text-shadow: 5px 5px 11px #7722cc,
+                     6px 6px 76px #7722cc,
+                     -5px -5px 75px #7722cc;
+    }
+}
+    </style>
+</html>
+
